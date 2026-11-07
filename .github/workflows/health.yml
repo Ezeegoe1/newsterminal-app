@@ -1,0 +1,20 @@
+# Chaque lundi : vérifie que chaque source répond. 3 semaines de panne = source écartée par l'appli (sans réinstallation).
+name: Santé des sources
+on:
+  schedule:
+    - cron: "41 5 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/health.py
+      - run: |
+          git config user.name "health-bot"; git config user.email "health-bot@users.noreply.github.com"
+          git add data/feeds_health.json version.json
+          git diff --cached --quiet || git commit -m "Santé des sources du $(date +%d/%m/%Y)"
+          git push

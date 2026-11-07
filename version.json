@@ -1,10 +1,12 @@
 {
- "vc": 35,
- "vn": "4.4",
+ "vc": 36,
+ "vn": "4.5",
  "apk": "NewsTerminal.apk",
- "sha256": "e7953c6bbc76772e584e99ef52ddf61f84756b10cb3967d5242f36841b6c5974",
+ "sha256": "a77c333bb7c2b506b953f6f3db513cf4ea05d388264d4d36c193d7f16c7b11ec",
  "date": "07/11/2026",
- "notes": "Mise à jour automatique, analyse IA des sociétés, alertes classées, nouvelles sources.",
+ "notes": "Clé IA chiffrée dans le coffre du téléphone, sources mises à jour à distance (les sources en panne sont écartées), sauvegarde et restauration des réglages.",
  "stats_sha256": "6c23a589185b33b6b034750f5c16b58f57e02ce857c25330f9330d14b783cd3d",
- "stats_date": "07/11/2026"
+ "stats_date": "07/11/2026",
+ "health_sha256": "cebce74e86c4f0352a5b43518a82b26208ac4a56e4fcd5ede24107892bbaa68f",
+ "feeds_sha256": "83953f6722661b4b89890d4b12d8bc8e95d660454401c747ced8d2a3f3caa74f"
 }

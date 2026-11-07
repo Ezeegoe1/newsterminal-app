@@ -1,0 +1,478 @@
+{
+ "feeds": [
+  {
+   "name": "FED",
+   "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+   "cat": "CB",
+   "interval": 30,
+   "lang": "en"
+  },
+  {
+   "name": "ECB",
+   "url": "https://www.ecb.europa.eu/rss/press.html",
+   "cat": "CB",
+   "interval": 30,
+   "lang": "en"
+  },
+  {
+   "name": "BoE",
+   "url": "https://www.bankofengland.co.uk/rss/news",
+   "cat": "CB",
+   "interval": 60,
+   "lang": "en"
+  },
+  {
+   "name": "GN Macro",
+   "url": "https://news.google.com/rss/search?q=CPI+OR+payrolls+OR+%22jobs+report%22+OR+PCE+OR+GDP+when:1h&hl=en-US&gl=US&ceid=US:en",
+   "cat": "MACRO",
+   "interval": 45,
+   "lang": "en"
+  },
+  {
+   "name": "investingLive",
+   "url": "https://investinglive.com/feed",
+   "cat": "SQUAWK",
+   "interval": 20,
+   "lang": "en"
+  },
+  {
+   "name": "Investing",
+   "url": "https://www.investing.com/rss/news_25.rss",
+   "cat": "SQUAWK",
+   "interval": 30,
+   "lang": "en"
+  },
+  {
+   "name": "FinancialJuice",
+   "url": "https://www.financialjuice.com/feed.ashx?xy=rss",
+   "cat": "SQUAWK",
+   "interval": 20,
+   "lang": "en"
+  },
+  {
+   "name": "Unusual Whales",
+   "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=unusualwhales.bsky.social&limit=30&filter=posts_no_replies",
+   "cat": "SQUAWK",
+   "interval": 30,
+   "lang": "en"
+  },
+  {
+   "name": "Reuters",
+   "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=reuters.com&limit=30&filter=posts_no_replies",
+   "cat": "SQUAWK",
+   "interval": 30,
+   "lang": "en"
+  },
+  {
+   "name": "Watcher Guru",
+   "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=watcher.guru&limit=30&filter=posts_no_replies",
+   "cat": "SQUAWK",
+   "interval": 30,
+   "lang": "en"
+  },
+  {
+   "name": "Axios",
+   "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=axios.com&limit=30&filter=posts_no_replies",
+   "cat": "US",
+   "interval": 45,
+   "lang": "en"
+  },
+  {
+   "name": "Nick Timiraos",
+   "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=nicktimiraos.bsky.social&limit=30&filter=posts_no_replies",
+   "cat": "CB",
+   "interval": 60,
+   "lang": "en"
+  },
+  {
+   "name": "Carl Quintanilla",
+   "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=carlquintanilla.bsky.social&limit=30&filter=posts_no_replies",
+   "cat": "US",
+   "interval": 45,
+   "lang": "en"
+  },
+  {
+   "name": "El-Erian",
+   "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=elerianm.bsky.social&limit=30&filter=posts_no_replies",
+   "cat": "MACRO",
+   "interval": 90,
+   "lang": "en"
+  },
+  {
+   "name": "CNBC Bsky",
+   "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=cnbc.com&limit=30&filter=posts_no_replies",
+   "cat": "US",
+   "interval": 45,
+   "lang": "en"
+  },
+  {
+   "name": "WSJ",
+   "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=wsj.com&limit=30&filter=posts_no_replies",
+   "cat": "US",
+   "interval": 60,
+   "lang": "en"
+  },
+  {
+   "name": "FT",
+   "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=financialtimes.com&limit=30&filter=posts_no_replies",
+   "cat": "GLOBAL",
+   "interval": 60,
+   "lang": "en"
+  },
+  {
+   "name": "Whale Alert",
+   "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=whale-alert.io&limit=30&filter=posts_no_replies",
+   "cat": "CRYPTO",
+   "interval": 60,
+   "lang": "en"
+  },
+  {
+   "name": "Fed discours",
+   "url": "https://www.federalreserve.gov/feeds/speeches.xml",
+   "cat": "CB",
+   "interval": 60,
+   "lang": "en"
+  },
+  {
+   "name": "Investing Éco",
+   "url": "https://www.investing.com/rss/news_95.rss",
+   "cat": "MACRO",
+   "interval": 30,
+   "lang": "en"
+  },
+  {
+   "name": "Investing FX",
+   "url": "https://www.investing.com/rss/news_1.rss",
+   "cat": "SQUAWK",
+   "interval": 30,
+   "lang": "en"
+  },
+  {
+   "name": "Investing MP",
+   "url": "https://www.investing.com/rss/commodities.rss",
+   "cat": "COMMO",
+   "interval": 45,
+   "lang": "en"
+  },
+  {
+   "name": "Kitco",
+   "url": "https://news.google.com/rss/search?q=site:kitco.com+when:1d&hl=en-US&gl=US&ceid=US:en",
+   "cat": "COMMO",
+   "interval": 60,
+   "lang": "en"
+  },
+  {
+   "name": "OilPrice",
+   "url": "https://news.google.com/rss/search?q=site:oilprice.com+when:1d&hl=en-US&gl=US&ceid=US:en",
+   "cat": "COMMO",
+   "interval": 60,
+   "lang": "en"
+  },
+  {
+   "name": "GN OPEP",
+   "url": "https://news.google.com/rss/search?q=OPEC+OR+crude+OR+brent+OR+%22gold+price%22+OR+copper+when:1h&hl=en-US&gl=US&ceid=US:en",
+   "cat": "COMMO",
+   "interval": 60,
+   "lang": "en"
+  },
+  {
+   "name": "Bloomberg",
+   "url": "https://www.bloomberg.com/feeds/markets/news.rss",
+   "cat": "US",
+   "interval": 30,
+   "lang": "en"
+  },
+  {
+   "name": "CNBC",
+   "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114",
+   "cat": "US",
+   "interval": 30,
+   "lang": "en"
+  },
+  {
+   "name": "MarketWatch",
+   "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
+   "cat": "US",
+   "interval": 45,
+   "lang": "en"
+  },
+  {
+   "name": "WSJ Mkts",
+   "url": "https://feeds.content.dowjones.io/public/rss/RSSMarketsMain",
+   "cat": "US",
+   "interval": 45,
+   "lang": "en"
+  },
+  {
+   "name": "FT Mkts",
+   "url": "https://www.ft.com/markets?format=rss",
+   "cat": "GLOBAL",
+   "interval": 60,
+   "lang": "en"
+  },
+  {
+   "name": "Yahoo Fin",
+   "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=%5EGSPC,%5EIXIC,CL%3DF,GC%3DF&region=US&lang=en-US",
+   "cat": "US",
+   "interval": 60,
+   "lang": "en"
+  },
+  {
+   "name": "Nikkei Asia",
+   "url": "https://asia.nikkei.com/rss/feed/nar",
+   "cat": "ASIA",
+   "interval": 60,
+   "lang": "en"
+  },
+  {
+   "name": "GN ZA",
+   "url": "https://news.google.com/rss/search?q=JSE+OR+rand+OR+SARB+OR+Eskom+when:1d&hl=en-ZA&gl=ZA&ceid=ZA:en",
+   "cat": "AFRIQUE",
+   "interval": 90,
+   "lang": "en"
+  },
+  {
+   "name": "GN NG",
+   "url": "https://news.google.com/rss/search?q=naira+OR+CBN+OR+NGX+OR+Nigeria+economy+when:1d&hl=en-NG&gl=NG&ceid=NG:en",
+   "cat": "AFRIQUE",
+   "interval": 90,
+   "lang": "en"
+  },
+  {
+   "name": "GN Afr EN",
+   "url": "https://news.google.com/rss/search?q=Africa+markets+OR+Egypt+pound+OR+Kenya+shilling+OR+Afreximbank+when:1d&hl=en-US&gl=US&ceid=US:en",
+   "cat": "AFRIQUE",
+   "interval": 90,
+   "lang": "en"
+  },
+  {
+   "name": "GN Afr FR",
+   "url": "https://news.google.com/rss/search?q=BRVM+OR+BCEAO+OR+UEMOA+OR+franc+CFA+OR+BEAC+when:1d&hl=fr&gl=SN&ceid=SN:fr",
+   "cat": "AFRIQUE",
+   "interval": 120,
+   "lang": "fr"
+  },
+  {
+   "name": "GN Maroc",
+   "url": "https://news.google.com/rss/search?q=Bourse+de+Casablanca+OR+Bank+Al-Maghrib+OR+dirham+when:1d&hl=fr&gl=MA&ceid=MA:fr",
+   "cat": "AFRIQUE",
+   "interval": 120,
+   "lang": "fr"
+  },
+  {
+   "name": "CoinDesk",
+   "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+   "cat": "CRYPTO",
+   "interval": 60,
+   "lang": "en"
+  },
+  {
+   "name": "Investing Crypto",
+   "url": "https://www.investing.com/rss/news_301.rss",
+   "cat": "CRYPTO",
+   "interval": 30,
+   "lang": "en"
+  },
+  {
+   "name": "The Block",
+   "url": "https://news.google.com/rss/search?q=site:theblock.co+when:1d&hl=en-US&gl=US&ceid=US:en",
+   "cat": "CRYPTO",
+   "interval": 60,
+   "lang": "en"
+  },
+  {
+   "name": "Decrypt",
+   "url": "https://news.google.com/rss/search?q=site:decrypt.co+when:1d&hl=en-US&gl=US&ceid=US:en",
+   "cat": "CRYPTO",
+   "interval": 60,
+   "lang": "en"
+  },
+  {
+   "name": "FXStreet",
+   "url": "https://news.google.com/rss/search?q=site:fxstreet.com+when:1d&hl=en-US&gl=US&ceid=US:en",
+   "cat": "SQUAWK",
+   "interval": 45,
+   "lang": "en"
+  },
+  {
+   "name": "ZeroHedge",
+   "url": "https://news.google.com/rss/search?q=site:zerohedge.com+when:1d&hl=en-US&gl=US&ceid=US:en",
+   "cat": "US",
+   "interval": 60,
+   "lang": "en"
+  },
+  {
+   "name": "Zonebourse",
+   "url": "https://news.google.com/rss/search?q=site:zonebourse.com/actualite-bourse+when:1d&hl=fr&gl=FR&ceid=FR:fr",
+   "cat": "EU",
+   "interval": 60,
+   "lang": "fr"
+  },
+  {
+   "name": "Les Echos",
+   "url": "https://news.google.com/rss/search?q=site:lesechos.fr+(bourse+OR+march%C3%A9s+OR+CAC+OR+BCE)+when:1d&hl=fr&gl=FR&ceid=FR:fr",
+   "cat": "EU",
+   "interval": 60,
+   "lang": "fr"
+  },
+  {
+   "name": "Boursorama",
+   "url": "https://news.google.com/rss/search?q=site:boursorama.com/bourse/actualites+when:1d&hl=fr&gl=FR&ceid=FR:fr",
+   "cat": "EU",
+   "interval": 60,
+   "lang": "fr"
+  },
+  {
+   "name": "GN US",
+   "url": "https://news.google.com/rss/search?q=stock+market+OR+fed+OR+inflation+OR+treasury+when:1h&hl=en-US&gl=US&ceid=US:en",
+   "cat": "US",
+   "interval": 60,
+   "lang": "en"
+  },
+  {
+   "name": "GN Geo",
+   "url": "https://news.google.com/rss/search?q=tariffs+OR+sanctions+OR+OPEC+OR+war+oil+when:1h&hl=en-US&gl=US&ceid=US:en",
+   "cat": "GLOBAL",
+   "interval": 60,
+   "lang": "en"
+  },
+  {
+   "name": "GN FR",
+   "url": "https://news.google.com/rss/search?q=bourse+OR+BCE+OR+inflation+when:1h&hl=fr&gl=FR&ceid=FR:fr",
+   "cat": "EU",
+   "interval": 90,
+   "lang": "fr"
+  },
+  {
+   "name": "GN DE",
+   "url": "https://news.google.com/rss/search?q=Börse+OR+EZB+OR+DAX+when:1h&hl=de&gl=DE&ceid=DE:de",
+   "cat": "EU",
+   "interval": 90,
+   "lang": "de"
+  },
+  {
+   "name": "GN JP",
+   "url": "https://news.google.com/rss/search?q=日銀+OR+日経平均+OR+為替+when:1h&hl=ja&gl=JP&ceid=JP:ja",
+   "cat": "ASIA",
+   "interval": 90,
+   "lang": "ja"
+  },
+  {
+   "name": "GN CN",
+   "url": "https://news.google.com/rss/search?q=央行+OR+股市+OR+人民币+when:1h&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+   "cat": "ASIA",
+   "interval": 90,
+   "lang": "zh"
+  }
+ ],
+ "impact": {
+  "5": [
+   "breaking",
+   "flash",
+   "emergency",
+   "rate decision",
+   "rate cut",
+   "rate hike",
+   "fomc",
+   "nonfarm",
+   "payrolls",
+   "cpi",
+   "pce",
+   "default",
+   "bankruptcy",
+   "halted",
+   "circuit breaker",
+   "invasion",
+   "missile",
+   "coup",
+   "intervention",
+   "powell",
+   "lagarde",
+   "ueda"
+  ],
+  "3": [
+   "tariff",
+   "sanction",
+   "opec",
+   "gdp",
+   "pmi",
+   "ism",
+   "unemployment",
+   "jobless claims",
+   "inflation",
+   "yield",
+   "treasury",
+   "downgrade",
+   "upgrade",
+   "guidance",
+   "earnings",
+   "war",
+   "ceasefire",
+   "nuclear",
+   "strike",
+   "trump",
+   "xi jinping",
+   "sec ",
+   "etf",
+   "bce",
+   "fed",
+   "taux",
+   "zinsen",
+   "利上げ",
+   "降息",
+   "crash",
+   "plunge",
+   "rout",
+   "sell-off",
+   "selloff",
+   "tumble",
+   "slump",
+   "soar",
+   "record high",
+   "meltdown",
+   "krach",
+   "s'effondre",
+   "plonge",
+   "chute",
+   "absturz",
+   "暴落",
+   "急落",
+   "暴跌",
+   "recession",
+   "récession",
+   "bailout"
+  ],
+  "1": [
+   "oil",
+   "gold",
+   "dollar",
+   "euro",
+   "yen",
+   "bitcoin",
+   "s&p",
+   "nasdaq",
+   "dow",
+   "dax",
+   "cac",
+   "nikkei",
+   "hang seng",
+   "stocks",
+   "shares",
+   "futures",
+   "bourse",
+   "aktien",
+   "rally",
+   "baisse",
+   "hausse",
+   "株",
+   "股",
+   "forex",
+   "bond",
+   "obligataire",
+   "brent",
+   "wti",
+   "copper"
+  ]
+ },
+ "threshold": 5
+}
