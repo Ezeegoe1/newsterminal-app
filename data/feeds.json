@@ -352,14 +352,14 @@
   },
   {
    "name": "GN JP",
-   "url": "https://news.google.com/rss/search?q=日銀+OR+日経平均+OR+為替+when:1h&hl=ja&gl=JP&ceid=JP:ja",
+   "url": "https://news.google.com/rss/search?q=日銀+OR+日経平均+OR+為替+when:1d&hl=ja&gl=JP&ceid=JP:ja",
    "cat": "ASIA",
    "interval": 90,
    "lang": "ja"
   },
   {
    "name": "GN CN",
-   "url": "https://news.google.com/rss/search?q=央行+OR+股市+OR+人民币+when:1h&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+   "url": "https://news.google.com/rss/search?q=央行+OR+股市+OR+人民币+when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
    "cat": "ASIA",
    "interval": 90,
    "lang": "zh"
