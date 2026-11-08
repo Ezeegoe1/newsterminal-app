@@ -6,7 +6,7 @@
  "date": "08/11/2026",
  "notes": "Niveaux de liquidité sur les graphiques : PDH/PDL, PWH/PWL, PMH/PML, PQH/PQL, PYH/PYL, PSH/PSL, REH/REL, BSL/SSL, EQ 50 %, gaps NWOG/NDOG, ouvertures, chiffres ronds ; masqués une fois touchés, envoyés à l'IA.",
  "stats_sha256": "6c23a589185b33b6b034750f5c16b58f57e02ce857c25330f9330d14b783cd3d",
- "stats_date": "07/11/2026",
+ "stats_date": "08/11/2026",
  "health_sha256": "cebce74e86c4f0352a5b43518a82b26208ac4a56e4fcd5ede24107892bbaa68f",
  "feeds_sha256": "c38ab38919718b9037c73850763ea9cd82d4933a2790ecb30e639b2d39d18e5e"
 }
