@@ -1,12 +1,12 @@
 {
- "vc": 43,
- "vn": "5.2",
+ "vc": 44,
+ "vn": "5.3",
  "apk": "NewsTerminal.apk",
- "sha256": "99cd3cd6cd3ae941334068589e19a79d3746aae9d64d9c9695ddc620b4063a05",
- "date": "08/11/2026",
- "notes": "Niveaux de liquidité sur les graphiques : PDH/PDL, PWH/PWL, PMH/PML, PQH/PQL, PYH/PYL, PSH/PSL, REH/REL, BSL/SSL, EQ 50 %, gaps NWOG/NDOG, ouvertures, chiffres ronds ; masqués une fois touchés, envoyés à l'IA.",
+ "sha256": "da9a6ec8e2eda47138713af8861bbfb566c10dc4f72e2a69b359b5bcc83729fd",
+ "date": "10/11/2026",
+ "notes": "Chiffres macro en temps réel (flash FinancialJuice dès la publication, calendrier de secours ForexFactory), son, filtres, zoom et dernier onglet mémorisés, choix des news (thèmes, mots masqués, seulement mes actifs).",
  "stats_sha256": "6c23a589185b33b6b034750f5c16b58f57e02ce857c25330f9330d14b783cd3d",
  "stats_date": "08/11/2026",
  "health_sha256": "cebce74e86c4f0352a5b43518a82b26208ac4a56e4fcd5ede24107892bbaa68f",
- "feeds_sha256": "c38ab38919718b9037c73850763ea9cd82d4933a2790ecb30e639b2d39d18e5e"
+ "feeds_sha256": "2b421cbc7fa6b9e681ad25446ddadb155de915ada73c1ffb31303265981cc35d"
 }

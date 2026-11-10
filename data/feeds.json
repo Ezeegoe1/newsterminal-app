@@ -46,7 +46,7 @@
    "name": "FinancialJuice",
    "url": "https://www.financialjuice.com/feed.ashx?xy=rss",
    "cat": "SQUAWK",
-   "interval": 20,
+   "interval": 10,
    "lang": "en"
   },
   {
